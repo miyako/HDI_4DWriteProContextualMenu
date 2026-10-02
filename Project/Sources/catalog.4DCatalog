@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_4DWriteProContextualMenu" uuid="497E6728FEFB4D848A5AF6442AEAF896" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="4DWriteProContextualMenu" structure_file_name="Demo_4DWritePro" data_file_path=":Demo_4DWritePro.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

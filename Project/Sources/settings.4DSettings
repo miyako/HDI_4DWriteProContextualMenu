@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<web>
+			<standalone_server>
+				<configuration port_number="80" session_mode="3" automatic_session_management="true"/>
+			</standalone_server>
+			<remote>
+				<configuration session_mode="3" automatic_session_management="true"/>
+			</remote>
+		</web>
+		<server>
+			<network>
+				<options publication_name="4DWriteProContextualMenu" publish_at_startup="true"/>
+				<client_server use_encryption="false"/>
+			</network>
+		</server>
+		<database>
+			<cache flush_buffer_delay="20s"/>
+			<misc standard_xpath="false" non_blocking_printing="false"/>
+		</database>
+		<general startup_environnement="1"/>
+		<interface>
+			<user splash_screen="false"/>
+		</interface>
+		<compiler>
+			<options compilation_path="1"/>
+		</compiler>
+	</com.4d>
+</preferences>
