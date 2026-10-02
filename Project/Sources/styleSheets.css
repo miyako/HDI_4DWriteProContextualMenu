@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: light) {
+	.sorry {
+		stroke: #FF4D00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.sorry {
+		stroke: #FF8A5C;
+	}
+}
