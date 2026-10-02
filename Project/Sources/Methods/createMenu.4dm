@@ -30,7 +30,7 @@ SET MENU ITEM PROPERTY:C973(myMenu; -1; Associated standard action:K56:1; ak fon
 createSizeMenu
 
 // Associate the "menuSize" sub-menu to the "Size" item 
-APPEND MENU ITEM:C411(myMenu; "Size"; menuSubSize)
+APPEND MENU ITEM:C411(myMenu; Localized string("MenuSize"); menuSubSize)
 
 
 

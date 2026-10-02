@@ -29,11 +29,11 @@
 					"width": 320,
 					"height": 77,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality."
+					"text": ":xliff:HDI_TxtSorry1",
+					"class": "sorry"
 				},
 				"TxtInfo1": {
 					"type": "text",
@@ -44,7 +44,8 @@
 					"fontFamily": "System Font",
 					"fontSize": 15,
 					"fontWeight": "bold",
-					"text": "How Do I..."
+					"text": ":xliff:HDI_TxtInfo1",
+					"stroke": "automatic"
 				},
 				"TxtInfo2": {
 					"type": "text",
@@ -55,7 +56,8 @@
 					"fontFamily": "System Font",
 					"fontSize": 15,
 					"fontWeight": "bold",
-					"text": "… create my own 4D Write Pro contextual menu?"
+					"text": ":xliff:HDI_TxtInfo2",
+					"stroke": "automatic"
 				},
 				"TxtSorry2": {
 					"type": "text",
@@ -66,7 +68,8 @@
 					"visibility": "hidden",
 					"textAlign": "center",
 					"fontWeight": "bold",
-					"text": "Sorry, this “How do I” (HDI) \rexample must be used with\ra newer version of 4D\r(v16 R3 and above)."
+					"text": ":xliff:HDI_TxtSorry2",
+					"stroke": "automatic"
 				},
 				"TxtVersion": {
 					"type": "text",
@@ -76,7 +79,8 @@
 					"height": 16,
 					"fontFamily": "Lucida Grande",
 					"fontSize": 12,
-					"text": "(4D v16 R3 and above…)"
+					"text": ":xliff:HDI_TxtVersion",
+					"stroke": "automatic"
 				},
 				"TxtSorry3": {
 					"type": "text",
@@ -85,22 +89,22 @@
 					"width": 320,
 					"height": 37,
 					"visibility": "hidden",
-					"stroke": "#FF4D00",
 					"textAlign": "left",
 					"fontFamily": "Lucida Grande",
 					"fontSize": 13,
-					"text": "The plugin xxx is mandatory"
+					"text": ":xliff:HDI_TxtSorry3",
+					"class": "sorry"
 				},
 				"BtnDemo": {
 					"type": "button",
 					"top": 280,
 					"left": 250,
 					"width": 90,
-					"height": 20,
 					"dataSource": "Demo",
 					"action": "Accept",
-					"text": "Demo",
+					"text": ":xliff:HDI_BtnDemo",
 					"class": "default",
+					"method": "ObjectMethods/BtnDemo.4dm",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Forms/DemoForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="DemoForm_Text" resname="DemoForm_Text">
+				<source>In this example, we have replaced the default 4D Write Pro contextual menu by our own customized contextual menu to style the following document. See more details in this blog post.&#13;Give it a try!</source>
+				<target>In this example, we have replaced the default 4D Write Pro contextual menu by our own customized contextual menu to style the following document. See more details in this blog post.&#13;Give it a try!</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

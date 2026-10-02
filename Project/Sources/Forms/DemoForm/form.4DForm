@@ -71,7 +71,8 @@
 					"width": 609,
 					"height": 49,
 					"sizingX": "grow",
-					"text": "In this example, we have replaced the default 4D Write Pro contextual menu by our own customized contextual menu to style the following document. See more details in this blog post.\rGive it a try!"
+					"text": ":xliff:DemoForm_Text",
+					"stroke": "automatic"
 				}
 			}
 		}

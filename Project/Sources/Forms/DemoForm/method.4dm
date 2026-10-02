@@ -1,9 +1,9 @@
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
-		C_TEXT:C284(myMenu)
-		C_TEXT:C284(menuSubSize)
-		C_TEXT:C284($filePath)
+		var myMenu; menuSubSize : Text
+		var myArea : Object
+		var $filePath : Text
 		
 		$filePath:=Get 4D folder:C485(Current resources folder:K5:16)+"MyWritePro.4wp"
 		myArea:=WP Import document:C1318($filePath)
